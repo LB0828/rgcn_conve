@@ -1,6 +1,0 @@
-2020-10-21 10:13:37,061 - testrun_21_10_2020_10:13:37 - [INFO] - {'name': 'testrun_21_10_2020_10:13:37', 'dataset': 'WN18RR', 'model': 'compgcn', 'score_func': 'conve', 'opn': 'corr', 'batch_size': 128, 'gamma': 40.0, 'gpu': '0', 'max_epochs': 500, 'l2': 0.0, 'lr': 0.003, 'lbl_smooth': 0.1, 'num_workers': 10, 'seed': 41504, 'restore': False, 'bias': False, 'num_bases': -1, 'init_dim': 100, 'gcn_dim': 200, 'embed_dim': 200, 'gcn_layer': 1, 'input_drop': 0.2, 'hidden_drop': 0.3, 'dropout': 0.1, 'hidden_size': 9728, 'hid_drop2': 0.3, 'feat_drop': 0.2, 'k_w': 10, 'k_h': 20, 'num_filt': 200, 'ker_sz': 7, 'hid_drop': 0.3, 'log_dir': './log/', 'config_dir': './config/'}
-2020-10-21 10:13:42,955 - testrun_21_10_2020_10:13:37 - [INFO] - [E:0| 0]: Train Loss:2.1698,  Val MRR:0.0	testrun_21_10_2020_10:13:37
-2020-10-21 10:13:50,060 - testrun_21_10_2020_10:13:37 - [INFO] - [E:0| 100]: Train Loss:0.12779,  Val MRR:0.0	testrun_21_10_2020_10:13:37
-2020-10-21 10:13:57,135 - testrun_21_10_2020_10:13:37 - [INFO] - [E:0| 200]: Train Loss:0.065843,  Val MRR:0.0	testrun_21_10_2020_10:13:37
-2020-10-21 10:14:04,068 - testrun_21_10_2020_10:13:37 - [INFO] - [E:0| 300]: Train Loss:0.044557,  Val MRR:0.0	testrun_21_10_2020_10:13:37
-2020-10-21 10:14:11,185 - testrun_21_10_2020_10:13:37 - [INFO] - [E:0| 400]: Train Loss:0.033779,  Val MRR:0.0	testrun_21_10_2020_10:13:37
