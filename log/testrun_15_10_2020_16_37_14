@@ -1,0 +1,35 @@
+2020-10-15 16:37:14,457 - testrun_15_10_2020_16:37:14 - [INFO] - {'name': 'testrun_15_10_2020_16:37:14', 'dataset': 'FB15k-237', 'model': 'compgcn', 'score_func': 'conve', 'opn': 'corr', 'batch_size': 256, 'gamma': 40.0, 'gpu': '0', 'max_epochs': 500, 'l2': 0.0, 'lr': 0.003, 'lbl_smooth': 0.1, 'num_workers': 10, 'seed': 41504, 'restore': False, 'bias': False, 'num_bases': -1, 'init_dim': 100, 'gcn_dim': 200, 'embed_dim': 200, 'gcn_layer': 1, 'input_drop': 0.2, 'hidden_drop': 0.3, 'dropout': 0.1, 'hidden_size': 9728, 'hid_drop2': 0.3, 'feat_drop': 0.2, 'k_w': 10, 'k_h': 20, 'num_filt': 200, 'ker_sz': 7, 'hid_drop': 0.3, 'log_dir': './log/', 'config_dir': './config/'}
+2020-10-15 16:37:19,261 - testrun_15_10_2020_16:37:14 - [INFO] - [E:0| 0]: Train Loss:1.6319,  Val MRR:0.0	testrun_15_10_2020_16:37:14
+2020-10-15 16:37:29,414 - testrun_15_10_2020_16:37:14 - [INFO] - [E:0| 100]: Train Loss:0.16389,  Val MRR:0.0	testrun_15_10_2020_16:37:14
+2020-10-15 16:37:39,508 - testrun_15_10_2020_16:37:14 - [INFO] - [E:0| 200]: Train Loss:0.086313,  Val MRR:0.0	testrun_15_10_2020_16:37:14
+2020-10-15 16:37:49,597 - testrun_15_10_2020_16:37:14 - [INFO] - [E:0| 300]: Train Loss:0.059611,  Val MRR:0.0	testrun_15_10_2020_16:37:14
+2020-10-15 16:37:59,682 - testrun_15_10_2020_16:37:14 - [INFO] - [E:0| 400]: Train Loss:0.045992,  Val MRR:0.0	testrun_15_10_2020_16:37:14
+2020-10-15 16:38:09,804 - testrun_15_10_2020_16:37:14 - [INFO] - [E:0| 500]: Train Loss:0.03774,  Val MRR:0.0	testrun_15_10_2020_16:37:14
+2020-10-15 16:38:18,405 - testrun_15_10_2020_16:37:14 - [INFO] - [Epoch:0]:  Training Loss:0.03293
+
+2020-10-15 16:38:18,733 - testrun_15_10_2020_16:37:14 - [INFO] - [Valid, Tail_Batch Step 0]	testrun_15_10_2020_16:37:14
+2020-10-15 16:38:21,968 - testrun_15_10_2020_16:37:14 - [INFO] - [Valid, Head_Batch Step 0]	testrun_15_10_2020_16:37:14
+2020-10-15 16:38:24,877 - testrun_15_10_2020_16:37:14 - [INFO] - [Epoch 0 valid]: MRR: Tail : 0.05638, Head : 0.0091, Avg : 0.03274
+2020-10-15 16:38:24,982 - testrun_15_10_2020_16:37:14 - [INFO] - [Epoch 0]: Training Loss: 0.032929, Valid MRR: 0.03274
+
+
+2020-10-15 16:38:25,361 - testrun_15_10_2020_16:37:14 - [INFO] - [E:1| 0]: Train Loss:0.00388,  Val MRR:0.03274	testrun_15_10_2020_16:37:14
+2020-10-15 16:38:35,583 - testrun_15_10_2020_16:37:14 - [INFO] - [E:1| 100]: Train Loss:0.0041704,  Val MRR:0.03274	testrun_15_10_2020_16:37:14
+2020-10-15 16:38:45,822 - testrun_15_10_2020_16:37:14 - [INFO] - [E:1| 200]: Train Loss:0.0041039,  Val MRR:0.03274	testrun_15_10_2020_16:37:14
+2020-10-15 16:38:56,068 - testrun_15_10_2020_16:37:14 - [INFO] - [E:1| 300]: Train Loss:0.0040392,  Val MRR:0.03274	testrun_15_10_2020_16:37:14
+2020-10-15 16:39:06,429 - testrun_15_10_2020_16:37:14 - [INFO] - [E:1| 400]: Train Loss:0.0039233,  Val MRR:0.03274	testrun_15_10_2020_16:37:14
+2020-10-15 16:39:16,759 - testrun_15_10_2020_16:37:14 - [INFO] - [E:1| 500]: Train Loss:0.00384,  Val MRR:0.03274	testrun_15_10_2020_16:37:14
+2020-10-15 16:39:25,409 - testrun_15_10_2020_16:37:14 - [INFO] - [Epoch:1]:  Training Loss:0.003782
+
+2020-10-15 16:39:25,736 - testrun_15_10_2020_16:37:14 - [INFO] - [Valid, Tail_Batch Step 0]	testrun_15_10_2020_16:37:14
+2020-10-15 16:39:28,993 - testrun_15_10_2020_16:37:14 - [INFO] - [Valid, Head_Batch Step 0]	testrun_15_10_2020_16:37:14
+2020-10-15 16:39:31,910 - testrun_15_10_2020_16:37:14 - [INFO] - [Epoch 1 valid]: MRR: Tail : 0.16537, Head : 0.02389, Avg : 0.09463
+2020-10-15 16:39:32,089 - testrun_15_10_2020_16:37:14 - [INFO] - [Epoch 1]: Training Loss: 0.0037822, Valid MRR: 0.09463
+
+
+2020-10-15 16:39:32,465 - testrun_15_10_2020_16:37:14 - [INFO] - [E:2| 0]: Train Loss:0.0035794,  Val MRR:0.09463	testrun_15_10_2020_16:37:14
+2020-10-15 16:39:42,762 - testrun_15_10_2020_16:37:14 - [INFO] - [E:2| 100]: Train Loss:0.0033214,  Val MRR:0.09463	testrun_15_10_2020_16:37:14
+2020-10-15 16:39:52,998 - testrun_15_10_2020_16:37:14 - [INFO] - [E:2| 200]: Train Loss:0.0033525,  Val MRR:0.09463	testrun_15_10_2020_16:37:14
+2020-10-15 16:40:03,220 - testrun_15_10_2020_16:37:14 - [INFO] - [E:2| 300]: Train Loss:0.0033247,  Val MRR:0.09463	testrun_15_10_2020_16:37:14
+2020-10-15 16:40:13,461 - testrun_15_10_2020_16:37:14 - [INFO] - [E:2| 400]: Train Loss:0.0032929,  Val MRR:0.09463	testrun_15_10_2020_16:37:14
+2020-10-15 16:40:23,716 - testrun_15_10_2020_16:37:14 - [INFO] - [E:2| 500]: Train Loss:0.0032428,  Val MRR:0.09463	testrun_15_10_2020_16:37:14
